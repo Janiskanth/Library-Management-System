@@ -1,0 +1,422 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{68B74566-2C95-4AAE-960E-F4A04F97049D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>LMS.My.MyApplication</StartupObject>
+    <RootNamespace>LMS</RootNamespace>
+    <AssemblyName>LMS</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>LMS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>LMS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmAuthentication.Designer.vb">
+      <DependentUpon>frmAuthentication.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAuthentication.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCatalog.Designer.vb">
+      <DependentUpon>frmCatalog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCatalog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFine.Designer.vb">
+      <DependentUpon>frmFine.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmFine.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLend.Designer.vb">
+      <DependentUpon>frmLend.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLend.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.vb">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.vb">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMember.Designer.vb">
+      <DependentUpon>frmMember.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMember.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMeterial.Designer.vb">
+      <DependentUpon>frmMeterial.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMeterial.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReport.Designer.vb">
+      <DependentUpon>frmReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStaff.Designer.vb">
+      <DependentUpon>frmStaff.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmStaff.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdmin.Designer.vb">
+      <DependentUpon>frmAdmin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAdmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="xDBConnection.vb" />
+    <Compile Include="xSQLCommandsNew.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmAuthentication.resx">
+      <DependentUpon>frmAuthentication.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCatalog.resx">
+      <DependentUpon>frmCatalog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFine.resx">
+      <DependentUpon>frmFine.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLend.resx">
+      <DependentUpon>frmLend.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMember.resx">
+      <DependentUpon>frmMember.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMeterial.resx">
+      <DependentUpon>frmMeterial.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReport.resx">
+      <DependentUpon>frmReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStaff.resx">
+      <DependentUpon>frmStaff.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdmin.resx">
+      <DependentUpon>frmAdmin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-135341581-612x612.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5480261-middle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\books.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\teamwork.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\teamwork %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reset-password %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reset-password.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\key.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hide.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hide %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\library.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\catalog.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\team.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\book.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\book %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\storytelling.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\publishing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\writer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\types.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\book %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sku.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\selection.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\updated.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\setting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\email.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\id-card %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\id-card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\location-pin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\skyscraper.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smartphone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\authenticity.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\password-entry.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checklist.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\receive-amount.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\return %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pdf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bookshelf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\above.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\warehouse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\team %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\id-card %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\padlock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fine %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\staff_id.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\browser.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\key %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\approved.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\old-big-key.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exchange.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

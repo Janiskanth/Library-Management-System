@@ -1,0 +1,48 @@
+C:\Users\Janis\Desktop\DIT Project\Project\LMS\LMS\bin\Debug\LMS.exe.config
+C:\Users\Janis\Desktop\DIT Project\Project\LMS\LMS\bin\Debug\LMS.exe
+C:\Users\Janis\Desktop\DIT Project\Project\LMS\LMS\bin\Debug\LMS.pdb
+C:\Users\Janis\Desktop\DIT Project\Project\LMS\LMS\bin\Debug\LMS.xml
+C:\Users\Janis\Desktop\DIT Project\Project\LMS\LMS\obj\Debug\LMS.frmLogin.resources
+C:\Users\Janis\Desktop\DIT Project\Project\LMS\LMS\obj\Debug\LMS.Resources.resources
+C:\Users\Janis\Desktop\DIT Project\Project\LMS\LMS\obj\Debug\LMS.vbproj.GenerateResource.Cache
+C:\Users\Janis\Desktop\DIT Project\Project\LMS\LMS\obj\Debug\LMS.exe
+C:\Users\Janis\Desktop\DIT Project\Project\LMS\LMS\obj\Debug\LMS.xml
+C:\Users\Janis\Desktop\DIT Project\Project\LMS\LMS\obj\Debug\LMS.pdb
+C:\Users\Janis\Desktop\DIT Project\Project\LMS\LMS\obj\Debug\LMS.frmMain.resources
+C:\Users\Janis\Desktop\DIT Project\Project\LMS\LMS\obj\Debug\LMS.frmMeterial.resources
+C:\Users\Janis\Desktop\DIT Project\Project\LMS\LMS\obj\Debug\LMS.frmCatalog.resources
+C:\Users\Janis\Desktop\DIT Project\Project\LMS\LMS\obj\Debug\LMS.frmMember.resources
+C:\Users\Janis\Desktop\DIT Project\Project\LMS\LMS\obj\Debug\LMS.frmLend.resources
+C:\Users\Janis\Desktop\DIT Project\Project\LMS\LMS\obj\Debug\LMS.frmAuthentication.resources
+C:\Users\Janis\Desktop\DIT Project\Project\LMS\LMS\obj\Debug\LMS.frmFine.resources
+C:\Users\Janis\Desktop\DIT Project\Project\LMS\LMS\obj\Debug\LMS.frmReport.resources
+C:\Users\Janis\Desktop\DIT Project\Project\LMS\LMS\obj\Debug\LMS.frmStaff.resources
+C:\Users\Janis\Desktop\DIT Project\Project\LMS\LMS\obj\Debug\LMS.frmAdmin.resources
+C:\Users\Janis\Desktop\DITA822074\Project\LMS\LMS\bin\Debug\LMS.exe.config
+C:\Users\Janis\Desktop\DITA822074\Project\LMS\LMS\obj\Debug\LMS.exe
+C:\Users\Janis\Desktop\DITA822074\Project\LMS\LMS\obj\Debug\LMS.xml
+C:\Users\Janis\Desktop\DITA822074\Project\LMS\LMS\obj\Debug\LMS.pdb
+C:\Users\Janis\Desktop\DITA822074\Project\LMS\LMS\obj\Debug\LMS.frmAuthentication.resources
+C:\Users\Janis\Desktop\DITA822074\Project\LMS\LMS\obj\Debug\LMS.frmCatalog.resources
+C:\Users\Janis\Desktop\DITA822074\Project\LMS\LMS\obj\Debug\LMS.frmFine.resources
+C:\Users\Janis\Desktop\DITA822074\Project\LMS\LMS\obj\Debug\LMS.frmLend.resources
+C:\Users\Janis\Desktop\DITA822074\Project\LMS\LMS\obj\Debug\LMS.frmLogin.resources
+C:\Users\Janis\Desktop\DITA822074\Project\LMS\LMS\obj\Debug\LMS.frmMain.resources
+C:\Users\Janis\Desktop\DITA822074\Project\LMS\LMS\obj\Debug\LMS.frmMember.resources
+C:\Users\Janis\Desktop\DITA822074\Project\LMS\LMS\obj\Debug\LMS.frmMeterial.resources
+C:\Users\Janis\Desktop\DITA822074\Project\LMS\LMS\obj\Debug\LMS.frmReport.resources
+C:\Users\Janis\Desktop\DITA822074\Project\LMS\LMS\obj\Debug\LMS.frmStaff.resources
+C:\Users\Janis\Desktop\DITA822074\Project\LMS\LMS\obj\Debug\LMS.frmAdmin.resources
+C:\Users\Janis\Desktop\DITA822074\Project\LMS\LMS\obj\Debug\LMS.Resources.resources
+C:\Users\Janis\Desktop\DITA822074\Project\LMS\LMS\obj\Debug\LMS.vbproj.GenerateResource.Cache
+C:\Users\Janis\Desktop\DITA822074\Project\LMS\LMS\bin\Debug\LMS.exe
+C:\Users\Janis\Desktop\DITA822074\Project\LMS\LMS\bin\Debug\LMS.pdb
+C:\Users\Janis\Desktop\DITA822074\Project\LMS\LMS\bin\Debug\LMS.xml
+C:\Users\Janis\Desktop\DITA822074\DITA822074 Project\LMS\LMS\bin\Debug\LMS.exe.config
+C:\Users\Janis\Desktop\DITA822074\DITA822074 Project\LMS\LMS\obj\Debug\LMS.exe
+C:\Users\Janis\Desktop\DITA822074\DITA822074 Project\LMS\LMS\obj\Debug\LMS.xml
+C:\Users\Janis\Desktop\DITA822074\DITA822074 Project\LMS\LMS\obj\Debug\LMS.pdb
+C:\Users\Janis\Desktop\DITA822074\DITA822074 Final Project\LMS\LMS\bin\Debug\LMS.exe.config
+C:\Users\Janis\Desktop\DITA822074\DITA822074 Final Project\LMS\LMS\obj\Debug\LMS.exe
+C:\Users\Janis\Desktop\DITA822074\DITA822074 Final Project\LMS\LMS\obj\Debug\LMS.xml
+C:\Users\Janis\Desktop\DITA822074\DITA822074 Final Project\LMS\LMS\obj\Debug\LMS.pdb
